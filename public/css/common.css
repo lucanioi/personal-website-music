@@ -1,0 +1,23 @@
+.page {
+  /*background-color: #ECFFF8;*/
+  padding-top: 20%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
