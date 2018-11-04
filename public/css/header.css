@@ -17,16 +17,6 @@
   font-weight: 200;
 }
 
-/*.menu-item {
-  width: 200px;
-  background-color: #F1F3F4;
-  padding-left: 5px;
-}
-
-.menu-item:hover {
-  background-color: #DBD9DB;
-}*/
-
 .menu-active {
   font-weight: 200 !important;
 }
