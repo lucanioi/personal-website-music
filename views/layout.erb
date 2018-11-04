@@ -10,19 +10,20 @@
   <link rel="stylesheet" href="css/index.css">
   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 </head>
-<body class="page">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6" id="name-and-title">
-        <%= yield %>
-      </div>
-      <div class="col-sm-6" id="menu">
-        <%= erb :'shared/menu' %>
-      </div>
+<body>
+  <div id="cover"></div>
+  <div id="page">
+    <div class="container">
+      <%= erb :header %>
     </div>
+    <%= erb :film_score %>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/hideAndShow.js"></script>
+  <script src="js/headerAnimation.js"></script>
+  <script src="js/contentDisplay.js"></script>
 </body>
-<script src="js/javascript.js"></script>
 </html>
 
 
