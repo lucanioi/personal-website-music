@@ -1,0 +1,24 @@
+.header-centered {
+  margin-top: 15%;
+}
+
+.header-raised {
+  margin-top: 1%;
+}
+
+.header-tall {
+  height: 240px;
+}
+
+.header-short {
+  height: 160px;
+}
+
+/* transitions */
+
+#header {
+  -webkit-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
+  -moz-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
+  -o-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
+  transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
+}

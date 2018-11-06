@@ -1,17 +1,9 @@
 <div id="film-score" class="margin-top">
-  <div class="content-item">
-    <iframe src="https://player.vimeo.com/video/297673643?color=c9a599" width="640" height="271" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-
-  <div class="content-item">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yoB2wd2NLrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-  <div class="content-item">
-  	<iframe src="https://player.vimeo.com/video/97026522" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-  </div>
-
-  <div class="content-item">
-  	<iframe width="560" height="315" src="https://www.youtube.com/embed/ppMwkQskkZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  <% videos.each do |video| %>
+    <div class="content-item">
+      <div class="video-responsive">
+        <%= video.iframe %>
+      </div>
+    </div>
+  <% end %>
 </div>

@@ -4,5 +4,6 @@
 @import 'skeleton.css';
 @import 'common.css';
 @import 'home.css';
-@import 'header.css';
-@import 'film_score.css';
+@import 'film-score.css';
+
+@import 'header/index.css';

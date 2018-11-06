@@ -1,0 +1,23 @@
+#film-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.video-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 250px;
+  width: 444px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.video-responsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

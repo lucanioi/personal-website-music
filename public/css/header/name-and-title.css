@@ -1,0 +1,22 @@
+#name-and-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.name h1 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.title h2 {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.firstname {
+  margin-right: 10px;
+}
+

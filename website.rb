@@ -1,21 +1,8 @@
 require 'sinatra'
 
+require './lib/content_loader'
+
 get '/' do
-  erb :index
-end
-
-get '/contact' do
-  erb :contact
-end
-
-get '/electronic_music' do
-  erb :electronic_music
-end
-
-get '/theater' do
-  erb :theater
-end
-
-get '/film_score' do
-  erb :film_score
+  video_contents = ContentLoader.load_contents('./public/contents/video.contents')
+  erb :index, locals: {videos: video_contents}
 end
