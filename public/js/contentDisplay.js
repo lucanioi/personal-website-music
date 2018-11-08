@@ -1,14 +1,33 @@
-const hideContents = function() {
-  $('#film-score').hide();
+var firstClick = true;
+
+const showContent = function(menuItem) {
+  targetOf(menuItem).fadeIn(800);
 }
 
-const displayFilmScore = function() {
-  $('#film-score').fadeIn(800);
+const hideAllContents = function() {
+  $('.content').hide();
+}
+
+const targetOf = function(menuItem) {
+  return $(menuItem.attr('target'));
+}
+
+const getTimeout = function() {
+  return firstClick ? 1000 : 0;
 }
 
 $(document).ready(function() {
-  hideContents();
-  $('#film-score-button').on('click', function() {
-    setTimeout(displayFilmScore, 600);
-  })
+  hideAllContents();
+
+  $('.menu-item').on('click', function() {
+    hideAllContents();
+    var menuItem = $(this);
+
+    setTimeout(function() {
+      showContent(menuItem);
+    }, getTimeout());
+
+    firstClick = false;
+  });
 })
+

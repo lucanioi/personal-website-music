@@ -18,7 +18,12 @@
     <div class="container">
       <%= erb :header %>
     </div>
-    <%= erb :film_score, locals: {videos: videos} %>
+    <div id="contents">
+      <%= erb :film_score, locals: {videos: videos} %>
+      <%= erb :electronic_music %>
+      <%= erb :about %>
+      <%= erb :contact %>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
