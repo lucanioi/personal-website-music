@@ -6,7 +6,9 @@
       </div>
 
       <div class="video-info">
-        <h6><%= video.title %></h6>
+        <h5><strong><%= video.title %></strong> (<%= video.year %>)</h5>
+        <h6><em><%= video.category %> by <%= video.creator %></em></h6>
+        <h6>credits: <%= video.credit %></h6>
       </div>
     </div>
   <% end %>

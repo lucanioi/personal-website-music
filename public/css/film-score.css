@@ -23,8 +23,22 @@
 }
 
 .video-info {
-  position: absolute;
+  padding: 10px;
   width: 300px;
-  top: 50px;
-  left: 500px;
 }
+
+@media (max-width: 550px) {
+  .video-info {
+    position: relative;
+  }
+}
+
+@media (min-width: 550px) {
+  .video-info {
+    position: absolute;
+    top: 0;
+    left: 475px;
+  }
+}
+
+
