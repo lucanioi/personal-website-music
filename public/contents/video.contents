@@ -6,6 +6,7 @@ iframe_width = (iframe_height * ratio).round
 video do
   title 'A Nordic Skater'
   year 2018
+  category 'short doc'
   credit 'Composer/Sound Designer'
   iframe <<~HTML
 <iframe src="https://player.vimeo.com/video/297673643?color=c9a599&title=0&byline=0&portrait=0" width="#{iframe_width}" height="#{iframe_height}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -15,6 +16,7 @@ end
 video do
   title 'DJI Stories - Saved by a Drone (commercial)'
   year 2018
+  category 'web commercial'
   credit 'Composer'
   iframe <<~HTML
   <iframe width="#{iframe_width}" height="#{iframe_height}" src="https://www.youtube.com/embed/yoB2wd2NLrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -24,6 +26,7 @@ end
 video do
   title 'Ressentiment'
   year 2015
+  category 'short film'
   credit 'Composer'
   iframe <<~HTML
   <iframe src="https://player.vimeo.com/video/97026522?color=ffffff&title=0&byline=0&portrait=0" width="#{iframe_width}" height="#{iframe_height}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -33,6 +36,7 @@ end
 video do
   title 'My Taiken (commercial)'
   year 2014
+  category 'web commercial'
   credit 'Composer'
   iframe <<~HTML
   <iframe width="#{iframe_width}" height="#{iframe_height}" src="https://www.youtube.com/embed/ppMwkQskkZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

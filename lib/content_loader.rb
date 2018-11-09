@@ -3,7 +3,7 @@ require_relative 'content_loader_dsl.rb'
 class ContentLoader
   extend ContentLoaderDSL
 
-  content video: %i[iframe year title description credit]
+  content video: %i[iframe year title description credit category]
 
   def self.load_contents(path)
     contents = File.read(path)

@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300');
 
-@import 'normalize.css';
-@import 'skeleton.css';
+@import 'vendors/index.css';
+@import 'header/index.css';
+
 @import 'common.css';
 @import 'home.css';
 @import 'film-score.css';
-
-@import 'header/index.css';

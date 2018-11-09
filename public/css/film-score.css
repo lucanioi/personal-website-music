@@ -5,7 +5,7 @@
   justify-content: flex-start;
 }
 
-.video-responsive{
+.video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -14,10 +14,17 @@
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.video-responsive iframe{
+.video-responsive iframe {
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.video-info {
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: 500px;
 }
