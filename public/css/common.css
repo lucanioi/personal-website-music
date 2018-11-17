@@ -24,17 +24,3 @@ a:hover {
 .margin-top {
   margin-top: 10px;
 }
-
-.content-item {
-  position: relative;
-  margin: 10px 0;
-}
-
-.content h5 {
-  font-size: 1.8rem;
-  margin-bottom: 0.8rem;
-}
-
-.content h6 {
-  margin-bottom: 0.4rem;
-}

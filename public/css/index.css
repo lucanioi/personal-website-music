@@ -5,4 +5,7 @@
 
 @import 'common.css';
 @import 'home.css';
-@import 'film-score.css';
+@import 'contents.css';
+@import 'video.css';
+@import 'music.css';
+@import 'vimeo-hack.css';

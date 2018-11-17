@@ -1,3 +1,9 @@
-<div id="electronic-music" class="margin-top content">
-
+<div id="electronic-music" class="content">
+  <% musics.each do |music| %>
+    <div class="content-item content-item-music">
+      <div class="embedded-media embedded-music">
+        <%= music.iframe %>
+      </div>
+    </div>
+  <% end %>
 </div>

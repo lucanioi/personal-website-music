@@ -13,14 +13,14 @@
   <%# erb :favicon %>
 </head>
 <body>
-  <div id="cover"></div>
+  <span id="cover"></span>
   <div id="page">
     <div class="container">
       <%= erb :header %>
     </div>
     <div id="contents">
-      <%= erb :film_score, locals: {videos: videos} %>
-      <%= erb :electronic_music %>
+      <%= erb :film_score, locals: {videos: contents[:film_score]} %>
+      <%= erb :electronic_music, locals: {musics: contents[:electronic_music]} %>
       <%= erb :about %>
       <%= erb :contact %>
     </div>

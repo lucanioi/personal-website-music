@@ -1,6 +1,13 @@
 module ContentLoaderDSL
+  CONTENTSFILE_PATH = './public/contents/Contentsfile'
+
   def content_klasses
     @content_klasses ||= {}
+  end
+
+  def self.extended(klass)
+    contentsfile = File.read(CONTENTSFILE_PATH)
+    klass.instance_eval(contentsfile)
   end
 
   private

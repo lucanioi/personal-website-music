@@ -1,9 +1,9 @@
 .header-centered {
-  margin-top: 15%;
+  margin-top: 17%;
 }
 
 .header-raised {
-  margin-top: 1%;
+  margin-top: 5%;
 }
 
 .header-tall {
@@ -17,8 +17,11 @@
 /* transitions */
 
 #header {
-  -webkit-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
-  -moz-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
-  -o-transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
-  transition: width 0.8s ease, height 0.8s ease, margin 0.8s ease, padding 0.8s ease, opacity 0.8s ease;
+  transition:
+    width 0.8s ease,
+    height 0.8s ease,
+    margin 0.8s ease,
+    padding 0.8s ease,
+    opacity 0.8s ease;
+  margin-bottom: 5%;
 }

@@ -1,0 +1,2 @@
+content video: %i[iframe year title description credit category creator]
+content music: %i[iframe]
