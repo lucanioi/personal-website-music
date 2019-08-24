@@ -23,9 +23,3 @@ music do
     <iframe width="100%" height="#{IFRAME_HEIGHT}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/46333350&color=%23ff5500&auto_play=false"></iframe>
   HTML
 end
-
-music do
-  iframe <<~HTML
-    <iframe width="100%" height="#{IFRAME_HEIGHT}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123148330&color=%23ff5500&auto_play=false"></iframe>
-  HTML
-end
